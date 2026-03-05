@@ -59,7 +59,8 @@ export default function AboutPage() {
           <div className="text-sm font-semibold">Profile</div>
           <div className="mt-4 relative aspect-square rounded-2xl overflow-hidden border border-border bg-black/30">
             <Image
-              src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop"
+              src="../public/projects/image.jpeg"
+              // https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop
               alt="Profile placeholder"
               fill
               className="object-cover"
@@ -67,7 +68,7 @@ export default function AboutPage() {
             />
           </div>
           <div className="mt-4 text-sm text-text-muted">
-            Replace this image with your own in <span className="text-white/80">/public</span>.
+            {/* Replace this image with your own in <span className="text-white/80">/public</span>. */}
           </div>
           <div className="mt-4 space-y-1 text-sm">
             <div className="text-text-muted">Location</div>
