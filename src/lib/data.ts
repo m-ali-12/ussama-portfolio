@@ -180,19 +180,18 @@ export const projects = [
   },
 
   // 👇 NEW PROJECT ADD HERE
-//   {
-//     slug: "portfolio",
-//     title: "Developer Portfolio",
-//     category: "Web",
-//     desc: "Personal developer portfolio built with Next.js.",
-//     stack: ["Next.js", "TypeScript", "Tailwind"],
-//     cover: "/projects/p4.webp",
-//     links: {
-//       live: "#",
-//       github: "#",
-//     },
-//   }
-// ];
+ {
+    slug: "expense-wallet",
+    title: "Expense Wallet — Finance Tracker",
+    category: "Mobile Apps" as const,
+    desc: "Finance tracker to manage daily expenses and budgets with charts.",
+    stack: ["Flutter", "SQLite", "Charts", "Provider"],
+    cover: "/projects/p3.webp",
+    links: {
+      live: "https://play.google.com/store/apps/details?id=com.desired_tech.expense_wallet",
+      github: "https://github.com/your-username/expense-wallet",
+    },
+  },
 ];
 // SERVICES
 export const services = [
