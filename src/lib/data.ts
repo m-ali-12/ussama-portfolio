@@ -114,44 +114,85 @@ export const education = [
 ];
 
 // PROJECTS
+// export const projects = [
+//   {
+//     slug: "medipedia",
+//     title: "Medipedia — Medical Guide App",
+//     category: "Mobile Apps" as const,
+//     desc: "Medical guide app providing information about medicines, diseases and healthcare tips.",
+//     stack: ["Flutter", "Dart", "Local DB", "UI/UX"],
+//     cover: "/projects/p1.webp",
+//     links: {
+//       live: "https://play.google.com/store/apps/details?id=com.medical_guide.medipedia",
+//       github: "https://github.com/your-username/medipedia",
+//     },
+//   },
+//   {
+//     slug: "office-orbit",
+//     title: "Office Orbit — Management System",
+//     category: "Mobile Apps" as const,
+//     desc: "Office management system to track tasks, attendance and collaboration.",
+//     stack: ["Flutter", "Firebase", "GetX", "Cloud Messaging"],
+//     cover: "/projects/p2.webp",
+//     links: {
+//       live: "https://play.google.com/store/apps/details?id=com.desired_tech.office_orbit",
+//       github: "https://github.com/your-username/office-orbit",
+//     },
+//   },
+//   {
+//     slug: "expense-wallet",
+//     title: "Expense Wallet — Finance Tracker",
+//     category: "Mobile Apps" as const,
+//     desc: "Finance tracker to manage daily expenses and budgets with charts.",
+//     stack: ["Flutter", "SQLite", "Charts", "Provider"],
+//     cover: "/projects/p3.webp",
+//     links: {
+//       live: "https://play.google.com/store/apps/details?id=com.desired_tech.expense_wallet",
+//       github: "https://github.com/your-username/expense-wallet",
+//     },
+//   },
+// ] 
 export const projects = [
   {
     slug: "medipedia",
     title: "Medipedia — Medical Guide App",
-    category: "Mobile Apps" as const,
+    category: "Mobile Apps",
     desc: "Medical guide app providing information about medicines, diseases and healthcare tips.",
     stack: ["Flutter", "Dart", "Local DB", "UI/UX"],
     cover: "/projects/p1.webp",
     links: {
-      live: "https://play.google.com/store/apps/details?id=com.medical_guide.medipedia",
-      github: "https://github.com/your-username/medipedia",
+      live: "...",
+      github: "...",
     },
   },
+
   {
     slug: "office-orbit",
     title: "Office Orbit — Management System",
-    category: "Mobile Apps" as const,
+    category: "Mobile Apps",
     desc: "Office management system to track tasks, attendance and collaboration.",
     stack: ["Flutter", "Firebase", "GetX", "Cloud Messaging"],
     cover: "/projects/p2.webp",
     links: {
-      live: "https://play.google.com/store/apps/details?id=com.desired_tech.office_orbit",
-      github: "https://github.com/your-username/office-orbit",
+      live: "...",
+      github: "...",
     },
   },
+
+  // 👇 NEW PROJECT ADD HERE
   {
-    slug: "expense-wallet",
-    title: "Expense Wallet — Finance Tracker",
-    category: "Mobile Apps" as const,
-    desc: "Finance tracker to manage daily expenses and budgets with charts.",
-    stack: ["Flutter", "SQLite", "Charts", "Provider"],
-    cover: "/projects/p3.webp",
+    slug: "portfolio",
+    title: "Developer Portfolio",
+    category: "Web",
+    desc: "Personal developer portfolio built with Next.js.",
+    stack: ["Next.js", "TypeScript", "Tailwind"],
+    cover: "/projects/p4.webp",
     links: {
-      live: "https://play.google.com/store/apps/details?id=com.desired_tech.expense_wallet",
-      github: "https://github.com/your-username/expense-wallet",
+      live: "#",
+      github: "#",
     },
-  },
-] 
+  }
+];
 
 // SERVICES
 export const services = [

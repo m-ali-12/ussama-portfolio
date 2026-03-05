@@ -7,7 +7,8 @@ import { ExternalLink, Github } from "lucide-react";
 import { projects, type ProjectCategory } from "@/lib/data";
 import { ProjectModal } from "./project-modal";
 
-const cats: ProjectCategory[] = ["All", "Web", "Dashboard", "E-Commerce", "Landing"];
+// const cats: ProjectCategory[] = ["All", "Web", "Dashboard", "E-Commerce", "Landing"];
+const cats: ProjectCategory[] = ["All", "Mobile Apps"];
 
 export function ProjectGrid() {
   const [active, setActive] = useState<ProjectCategory>("All");
