@@ -193,7 +193,7 @@ export const projects = [
 //     },
 //   }
 // ];
-
+];
 // SERVICES
 export const services = [
   {
