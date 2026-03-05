@@ -1,6 +1,16 @@
+// TYPES
+export type ProjectCategory =
+  | "All"
+  | "Web"
+  | "Dashboard"
+  | "E-Commerce"
+  | "Landing"
+  | "Mobile Apps";
+
+// SITE INFO
 export const site = {
   name: "Ussama Binyamin",
-  role: "Full‑Stack Developer",
+  role: "Full-Stack Developer",
   logoText: "U",
   location: "Sahiwal, Pakistan",
   email: "muhammadussama35@gmail.com",
@@ -10,6 +20,7 @@ export const site = {
   },
 };
 
+// HIGHLIGHTS
 export const highlights = [
   {
     title: "Mobile Apps",
@@ -23,7 +34,7 @@ export const highlights = [
   },
   {
     title: "Backend & DB",
-    desc: "Firebase,  REST APIs, SQLite",
+    desc: "Firebase, REST APIs, SQLite",
     icon: "Database",
   },
   {
@@ -33,6 +44,7 @@ export const highlights = [
   },
 ];
 
+// SKILLS
 export const skills = [
   {
     group: "App Development",
@@ -46,9 +58,9 @@ export const skills = [
   {
     group: "Backend & Storage",
     items: [
-      { name: "Firebase ", level: 82 },
+      { name: "Firebase", level: 82 },
       { name: "REST APIs / JSON", level: 85 },
-      { name: "SQLite  ", level: 78 },
+      { name: "SQLite", level: 78 },
       { name: "Auth & Security", level: 75 },
     ],
   },
@@ -63,15 +75,16 @@ export const skills = [
   },
 ];
 
+// EXPERIENCE
 export const experience = [
   {
-    title: " Flutter Developer",
+    title: "Flutter Developer",
     company: "Desired Technologies Software House",
     period: "2025 — Present",
     bullets: [
       "Built high-performance cross-platform mobile apps for Android & iOS using Flutter.",
       "Integrated Firebase services (Firestore, Auth, Cloud Messaging) and REST APIs.",
-      "Optimized app performance, reducing build sizes and improving UI frame rates (60fps).",
+      "Optimized app performance improving UI frame rates (60fps).",
     ],
   },
   {
@@ -80,52 +93,45 @@ export const experience = [
     period: "2024 — 2025",
     bullets: [
       "Developed responsive and pixel-perfect UIs from Figma designs using Flutter widgets.",
-      "Managed app state efficiently using GetX/Provider and handled local data with SQLite.",
-      "Assisted in deploying apps to Google Play Store and managing version control with Git.",
+      "Managed app state using Provider and handled local data with SQLite.",
+      "Assisted in deploying apps to Google Play Store and managing Git version control.",
     ],
   },
 ];
 
+// EDUCATION
 export const education = [
   {
     title: "BS Computer Science",
-    org: "University oF Sahiwal",
+    org: "University of Sahiwal",
     period: "2020 — 2024",
-   bullets: [
-  "Core Computer Science: OOP, DBMS, Software Architecture, Mobile Computing.",
-  "Deep understanding of Data Structures & Algorithms (DSA) for app optimization.",
-  "Final Year Project: Cross-platform Mobile App using Flutter & Firebase (e.g., E-commerce/Healthcare App).",
-
+    bullets: [
+      "Core Computer Science: OOP, DBMS, Software Architecture, Mobile Computing.",
+      "Strong understanding of Data Structures & Algorithms (DSA).",
+      "Final Year Project: Cross-platform Mobile App using Flutter & Firebase.",
     ],
   },
 ];
 
-export type ProjectCategory =
-  | "All"
-  | "Mobile Apps"    // Pehle "Web" tha
-  | "UI/UX Kits"      // Pehle "Dashboard" tha
-  | "E‑Commerce"      // Ye same reh sakta hai (Flutter e-comm apps bohot banti hain)
-  | "Firebase / Cloud" // Pehle "Landing" tha
-  | "Open Source";    // Optional: Agar aapne Flutter packages banaye hon
-  
+// PROJECTS
 export const projects = [
   {
     slug: "medipedia",
     title: "Medipedia — Medical Guide App",
     category: "Mobile Apps" as const,
-    desc: "A comprehensive medical guide app providing detailed information about medicines, diseases, and healthcare tips with a clean UI.",
+    desc: "Medical guide app providing information about medicines, diseases and healthcare tips.",
     stack: ["Flutter", "Dart", "Local DB", "UI/UX"],
-    cover: "/projects/p1.webp", // /public/projects folder mein image rakhin
+    cover: "/projects/p1.webp",
     links: {
       live: "https://play.google.com/store/apps/details?id=com.medical_guide.medipedia",
       github: "https://github.com/your-username/medipedia",
     },
   },
   {
-    slug: "office-orbital",
+    slug: "office-orbit",
     title: "Office Orbit — Management System",
     category: "Mobile Apps" as const,
-    desc: "An all-in-one office management solution to track tasks, attendance, and team collaboration efficiently.",
+    desc: "Office management system to track tasks, attendance and collaboration.",
     stack: ["Flutter", "Firebase", "GetX", "Cloud Messaging"],
     cover: "/projects/p2.webp",
     links: {
@@ -137,7 +143,7 @@ export const projects = [
     slug: "expense-wallet",
     title: "Expense Wallet — Finance Tracker",
     category: "Mobile Apps" as const,
-    desc: "A smart personal finance manager to track daily expenses, set budgets, and visualize spending habits with charts.",
+    desc: "Finance tracker to manage daily expenses and budgets with charts.",
     stack: ["Flutter", "SQLite", "Charts", "Provider"],
     cover: "/projects/p3.webp",
     links: {
@@ -145,31 +151,33 @@ export const projects = [
       github: "https://github.com/your-username/expense-wallet",
     },
   },
-] as const;
+] 
 
+// SERVICES
 export const services = [
   {
-    title: "Cross-Platform App Dev",
-    desc: "High-performance Android and iOS apps from a single codebase using Flutter.",
-    points: ["Native performance", "Pixel-perfect UI", "Fast development cycle"],
+    title: "Cross-Platform App Development",
+    desc: "High-performance Android & iOS apps using Flutter.",
+    points: ["Native performance", "Pixel-perfect UI", "Fast development"],
   },
   {
     title: "Firebase & Backend Setup",
-    desc: "Scalable backend solutions with real-time databases and authentication.",
-    points: ["Push Notifications", "MY SQL", "Secure Auth systems"],
+    desc: "Scalable backend solutions with authentication and databases.",
+    points: ["Push Notifications", "Firestore / Realtime DB", "Secure Auth"],
   },
   {
     title: "UI/UX & App Revamp",
-    desc: "Modernizing old apps with smooth animations and clean, responsive layouts.",
-    points: ["Flutter Animations", "Figma to Flutter", "State Management (GetX)"],
+    desc: "Modern UI redesign with smooth Flutter animations.",
+    points: ["Flutter Animations", "Figma to Flutter", "State Management"],
   },
   {
-    title: "App Maintenance & Fixes",
-    desc: "Fixing bugs, upgrading Flutter versions, and optimizing app performance.",
-    points: ["Performance Tuning", "API Integration", "Play Store Deployment"],
+    title: "App Maintenance",
+    desc: "Bug fixes, upgrades and performance optimization.",
+    points: ["Performance tuning", "API Integration", "Play Store Deployment"],
   },
 ];
 
+// CONTACT
 export const contactCards = [
   { label: "Location", value: site.location },
   { label: "Email", value: site.email },
