@@ -180,19 +180,19 @@ export const projects = [
   },
 
   // 👇 NEW PROJECT ADD HERE
-  {
-    slug: "portfolio",
-    title: "Developer Portfolio",
-    category: "Web",
-    desc: "Personal developer portfolio built with Next.js.",
-    stack: ["Next.js", "TypeScript", "Tailwind"],
-    cover: "/projects/p4.webp",
-    links: {
-      live: "#",
-      github: "#",
-    },
-  }
-];
+//   {
+//     slug: "portfolio",
+//     title: "Developer Portfolio",
+//     category: "Web",
+//     desc: "Personal developer portfolio built with Next.js.",
+//     stack: ["Next.js", "TypeScript", "Tailwind"],
+//     cover: "/projects/p4.webp",
+//     links: {
+//       live: "#",
+//       github: "#",
+//     },
+//   }
+// ];
 
 // SERVICES
 export const services = [
