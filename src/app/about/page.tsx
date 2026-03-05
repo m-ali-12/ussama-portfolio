@@ -59,7 +59,7 @@ export default function AboutPage() {
           <div className="text-sm font-semibold">Profile</div>
           <div className="mt-4 relative aspect-square rounded-2xl overflow-hidden border border-border bg-black/30">
             <Image
-              src="../public/projects/image.jpeg"
+              src="/projects/imge.jpeg"
               // https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop
               alt="Profile placeholder"
               fill
